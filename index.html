@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/sanitize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/08a03e4c22.js" crossorigin="anonymous"></script>
+    <title>Tienda con MediaQuery</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="nav__logo"></div>
+            <div class="nav__hamburguer"><i class="fas fa-bars fa-lg"></i></div>
+            <ul class="nav__items">
+                <li class="nav__item">Inicio</li>
+                <li class="nav__item">Burgers</li>
+                <li class="nav__item">Pizzas</li>
+                <li class="nav__item">Chips</li>
+            </ul>
+        </nav>
+        <aside class="aside">
+            <label for="ordenar" class="aside__label">Ordenar por: </label>
+            <select name="ordenar" id="ordenar" class="aside__select">
+                <option value="burgers">Burgers</option>
+                <option value="pizzas">Pizzas</option>
+                <option value="chips">Chips</option>
+            </select>
+        </aside>
+        <main class="main">
+            <div class="card">
+                <img src="assets/img/flamed-grilled01.png" alt="Flamed grilled burger" class="card__image">
+                <h2 class="card__title">Flamed Grilled Burger</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/chicken-burger02.png" alt="Chicken burger" class="card__image">
+                <h2 class="card__title">Chicken burger</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/fajita-fiesta03.png" alt="Fajita fiesta" class="card__image">
+                <h2 class="card__title">Fajita fiesta</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/apache-pizza04.png" alt="Apache Pizza" class="card__image">
+                <h2 class="card__title">Apache Pizza</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/big-chief05.png" alt="Big Chief Pizza" class="card__image">
+                <h2 class="card__title">Pizza Big Chief</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/taco-fries06.png" alt="Taco Fries" class="card__image">
+                <h2 class="card__title">Taco Fries</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/buffalo-wings07.png" alt="Buffalo wings" class="card__image">
+                <h2 class="card__title">Buffalo Wings</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/curry-chips08.png" alt="Curry chips" class="card__image">
+                <h2 class="card__title">Curry Chips</h2>
+                <button class="card__button">Agregar al carrito</button>
+            </div>
+            <div class="pagination">
+                <p class="pagination__item">&lt;&lt;</p>
+                <p class="pagination__item">1</p>
+                <p class="pagination__item">2</p>
+                <p class="pagination__item">3</p>
+                <p class="pagination__item">&gt;&gt;</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__social"><i class="fab fa-facebook"></i>&nbsp;&nbsp;<i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer__derechos">Todos los derechos reservados</div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
